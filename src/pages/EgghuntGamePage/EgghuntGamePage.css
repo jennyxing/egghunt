@@ -1,0 +1,10 @@
+.player-assignment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-assignment-text {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}

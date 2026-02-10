@@ -1,0 +1,33 @@
+.player-score-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+}
+
+.game-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.game-grid {
+    display: grid;
+    grid-template: repeat(5, 1fr)/repeat(7, 1fr);
+    grid-gap: 2px;
+}
+
+.turn-visualizer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+
+.turn-text {
+    padding: 0.5rem 0.75rem;
+    box-sizing: border-box;
+}
+
+.turn-text--active {
+    outline: 3px solid #474747;
+    background-color: #cacaca;
+    border-radius: 3px;
+}

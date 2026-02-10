@@ -1,0 +1,30 @@
+.join-text {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.study-id-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-label {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.study-id-input {
+    height: 3rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.join-button {
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    width: 80px;
+    font-size: 1.25rem;
+}
